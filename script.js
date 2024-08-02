@@ -1,7 +1,7 @@
 async function fetchNews() {
     try {
         // Merr lajmet nga NewsAPI
-        const newsResponse = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_NEWS_API_KEY');
+        const newsResponse = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=c01e715442cb41b6af50ccdd990dfc5f');
         const newsData = await newsResponse.json();
 
         // Kontrollo nëse kemi lajme
